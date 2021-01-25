@@ -89,6 +89,5 @@ public class UserController {
 		System.out.println(reserves);
 		
 		return "home";
-
 	}
 }
