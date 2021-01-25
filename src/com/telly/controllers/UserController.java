@@ -87,7 +87,6 @@ public class UserController {
 		List<Reserve> reserves = reserveService.getReserves(username);
 		model.addAttribute("reserves", reserves);
 		System.out.println(reserves);
-	
 		
 		return "home";
 
